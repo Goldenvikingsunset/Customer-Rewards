@@ -1,0 +1,49 @@
+{
+  "id": "3464f4e2-9a90-4e8d-a152-960007f2dd32",
+  "name": "CustomerRewardsTest",
+  "publisher": "Default publisher",
+  "version": "1.0.0.0",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [{ 
+    "appId": "c228bdcf-7112-480b-a832-da81971b6feb", 
+    "name": "CustomerRewards", 
+    "publisher": "Microsoft", 
+    "version": "1.0.0.0" 
+  },
+  {
+      "id":  "dd0be2ea-f733-4d65-bb34-a28f4624fb14",
+      "name":  "Library Assert",
+      "publisher":  "Microsoft",
+      "version":  "23.0.0.0"
+  },
+  {
+      "id":  "5d86850b-0d76-4eca-bd7b-951ad998e997",
+      "name":  "Tests-TestLibraries",
+      "publisher":  "Microsoft",
+      "version":  "23.0.0.0"
+  }],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "23.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "12.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
