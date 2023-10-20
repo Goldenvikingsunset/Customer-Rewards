@@ -13,7 +13,7 @@ pageextension 50100 "Customer Card Ext." extends "Customer Card"
                 Editable = false;
             }
 
-            field(RewardPoints; RewardPoints)
+            field(RewardPoints; rec.RewardPoints)
             {
                 ApplicationArea = All;
                 Caption = 'Reward Points';
@@ -29,7 +29,7 @@ pageextension 50100 "Customer Card Ext." extends "Customer Card"
         CustomerRewardsMgtExt: Codeunit "Customer Rewards Ext. Mgt.";
     begin
         // Get the reward level associated with reward points 
-        RewardLevel := CustomerRewardsMgtExt.GetRewardLevel(RewardPoints);
+        RewardLevel := CustomerRewardsMgtExt.GetRewardLevel(rec.RewardPoints);
     end;
 
     var
