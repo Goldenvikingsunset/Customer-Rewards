@@ -10,11 +10,12 @@
   "help": "",
   "url": "",
   "logo": "",
-  "dependencies": [{ 
-    "appId": "c228bdcf-7112-480b-a832-da81971b6feb", 
-    "name": "CustomerRewards", 
-    "publisher": "Microsoft", 
-    "version": "1.0.0.0" 
+  "dependencies": [
+    { 
+      "id": "ada5ba9e-34cc-4dfb-bdb1-924c153b4f55",
+      "name": "CustomerRewards",
+      "publisher": "Paul Rennison", 
+      "version": "1.0.0.0" 
   },
   {
       "id":  "dd0be2ea-f733-4d65-bb34-a28f4624fb14",
@@ -27,7 +28,8 @@
       "name":  "Tests-TestLibraries",
       "publisher":  "Microsoft",
       "version":  "23.0.0.0"
-  }],
+  }
+],
   "screenshots": [],
   "platform": "1.0.0.0",
   "application": "23.0.0.0",
